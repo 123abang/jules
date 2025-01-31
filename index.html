@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ReTIRED TRUCKER- To The Moon! 🚀</title>
+    <title>FATHER OF ALL TRUMPS - To The Moon! 🚀</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <style>
         * {
             margin: 0;
@@ -13,12 +16,12 @@
         }
 
         body {
-            background-color: #0f1724;
+            background-color: #ff9300;
             color: #ffffff;
         }
 
         .navbar {
-            background-color: rgba(15, 23, 36, 0.95);
+            background-color: #ff9300;
             padding: 1rem;
             position: fixed;
             width: 100%;
@@ -202,7 +205,7 @@
         }
 
         .social-links a:hover {
-            color: #00ff88;
+            color: #ffff;
         }
 
         @media (max-width: 768px) {
@@ -259,7 +262,7 @@
         .faq-answer {
             display: none;
             margin-top: 1rem;
-            color: #b0b0b0;
+            color: #fff;
             font-size: 1rem;
         }
 
@@ -325,43 +328,53 @@
                 font-size: 0.9rem;
             }
         }
+
+        .tokenomics-chart {
+            max-width: 500px;
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">Retired Trucker</div>
+            <div class="logo">FATHER OF ALL TRUMPS</div>
             <div class="nav-links">
                 <a href="#about">About</a>
                 <a href="#roadmap">Roadmap</a>
                 <a href="#community">Community</a>
+                <a href="hhttps://t.me/fatherofalltrumps" target="_blank">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://x.com/FREDFOAT" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
             </div>
         </div>
     </nav>
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Retired trucker  🚀</h1>
-            <p>The next generation of meme coins. To the moon and beyond!</p>
-            <img src="/images//IMG_1974.JPG" alt="Rocket dog illustration" style="border-radius: 100%; height: 300px;" > <br>
+            <h1>FATHER OF ALL TRUMPS 🚀</h1>
+            <p>Sensing the successful meme coined by his son, Fred, Father Of All Trumps, returned from the dead to undertake another.</p>
+            <img src="/images/photo_2025-01-30_16-52-32.jpg" alt="Rocket dog illustration" style="border-radius: 100%; height: 300px;" > <br>
             <a href="#" class="cta-button">Buy Now</a>
         </div>
     </section>
 
-       <!-- CA Contract Address Section -->
-       <section id="contract-address" class="section">
+    <section id="contract-address" class="section">
         <h2>CA Contract Address</h2>
         <div class="contract-container">
-            <p>Here is the official contract address for Retired Trucker Coin. Click the button to copy it:</p>
+            <p>Here is the official contract address for FATHER OF ALL TRUMPS Coin. Click the button to copy it:</p>
             <div class="contract-address-box">
-                <span id="contract-address-text">8193TX2uRKjtuKNUGrDTCd9XbpfJm6haHb3t8bTrpump</span>
+                <span id="contract-address-text">BQ9pieP5PvwzcAs2pJamtqQdfvpyq8MJQPmv1Sww2R1</span>
                 <button onclick="copyContractAddress()" class="copy-button">Copy</button>
             </div>
         </div>
     </section>
 
     <section id="about" class="section">
-        <h2>About Retired Trucker</h2>
+        <h2>About FATHER OF ALL TRUMPS</h2>
         <div class="about-grid">
             <div class="about-card">
                 <h3>Community Driven</h3>
@@ -378,15 +391,16 @@
         </div>
     </section>
 
-        <!-- About Us Section -->
     <section id="about-us" class="section">
-        <!-- <h2>About Us</h2> -->
-        <p>Retired Trucker : The Bieber Dynasty’s Best-Kept Secret
+        <p>FATHER OF ALL TRUMPS: Sensing the successful meme coined by his son, Fred, Father Of All Trumps, returned from the dead to undertake another..</p>
+    </section> 
 
-Ever wondered what goes on behind the scenes of one of the world’s most iconic families? Jack Blues is your chance to find out. This token is your ticket to exclusive, never-before-seen footage and stories from Justin and Hailey Bieber’s world, all captured by the top paparazzi in the industry.
-
-Rumored to be tied to their mysterious son, Jack Blues gives you access to behind-the-scenes moments that have been kept out of the public eye—until now. From rare footage to untold stories, this is your chance to be part of something extraordinary.</p>
-    </section>
+    <!-- <section id="tokenomics" class="section">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-chart">
+            <canvas id="tokenomicsChart"></canvas>
+        </div>
+    </section> -->
 
     <section id="roadmap" class="roadmap">
         <h2>Roadmap</h2>
@@ -409,107 +423,103 @@ Rumored to be tied to their mysterious son, Jack Blues gives you access to behin
             </div>
         </div>
     </section>
+        <section id="tokenomics" class="section">
+        <h2>Tokenomics</h2>
+        <div class="tokenomics-chart">
+            <canvas id="tokenomicsChart"></canvas>
+        </div>
+    </section>
 
     <section id="dexscreener" class="section">
         <h2>DEXScreener</h2>
-        <p style="text-align: center;" >Track the latest price and trading details for DogeMoon Coin on DEXScreener:</p>
+        <p style="text-align: center;" >Track the latest price and trading details for FATHER OF ALL TRUMPS Coin on DEXScreener:</p>
         <div class="dexscreener-container" style="text-align: center;">
-            <a href=""  class="dexscreener-link">View on DEXScreener</a>
+            <a href="https://solsale.app/presale/BdVh5HBzZRN2b98iX7gikzGBNwzAuHrMATZm94q8idj1"  class="dexscreener-link">View on GemPad</a>
         </div>
     </section>
 
     <section id="how-to-buy" class="section">
-        <h2>How to Buy Retired Trucker</h2>
+        <h2>How to Buy FATHER OF ALL TRUMPS</h2>
         <div style="text-align: center; margin-bottom: 2rem;">
-            <p>Follow these steps to join the Retired Trucker community and start your journey to the moon 🚀!</p>
+            <p>Follow these steps to join the FATHER OF ALL TRUMPS community and start your journey to the moon 🚀!</p>
         </div>
         <div class="about-grid">
-            <!-- Step 1 -->
             <div class="about-card">
                 <h3>Step 1: Create a Wallet</h3>
                 <p>Download a crypto wallet like <strong>MetaMask</strong> or <strong>Trust Wallet</strong>.</p>
-                <!-- <img src="/images/wallet.png" alt="Wallet Icon" style="width: 100%; border-radius: 10px; margin-top: 1rem;"> -->
             </div>
     
-            <!-- Step 2 -->
             <div class="about-card">
                 <h3>Step 2: Buy sol Tokens</h3>
                 <p>Purchase SOLANA tokens on an exchange like Binance, then transfer them to your wallet.</p>
-                <!-- <img src="/images/core.png" alt="Core Token Icon" style="width: 100%; border-radius: 10px; margin-top: 1rem;"> -->
             </div>
     
-            <!-- Step 3 -->
             <div class="about-card">
                 <h3>Step 3: Visit a DEXTools</h3>
                 <p>Go to a decentralized exchange like <a href="#" style="color: #00ff88;">Radium</a> or <a href="#" style="color: #00ff88;">DexTools</a>. Use the contract address to find Jack Blue$.</p>
-                <!-- <img src="/images/dex.png" alt="DEX Icon" style="width: 100%; border-radius: 10px; margin-top: 1rem;"> -->
             </div>
     
-            <!-- Step 4 -->
             <div class="about-card">
-                <h3>Step 4: Swap CORE for Retired Token</h3>
-                <p>Swap your CORE tokens for Retired Token by setting your slippage to 5-10%.</p>
-                <!-- <img src="https://www.google.com/imgres?q=dextools&imgurl=https%3A%2F%2Fplay-lh.googleusercontent.com%2FeVGu--ODOSE0WZOhz4GIRqarJpuQbThHwmx-YWGxiv8_AjZ4K3kt2WHMFxxXAMWcMRZZ&imgrefurl=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dio.dextools.app&docid=Gs7YiwhFEYjaiM&tbnid=A5_8t0_juHgJsM&vet=12ahUKEwj8gODd5J2KAxWPWEEAHZ1MJqsQM3oECBkQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwj8gODd5J2KAxWPWEEAHZ1MJqsQM3oECBkQAA" alt="Swap Icon" style="width: 100%; border-radius: 10px; margin-top: 1rem;"> -->
+                <h3>Step 4: Swap CORE for FATHER OF ALL TRUMPS Token</h3>
+                <p>Swap your CORE tokens for FATHER OF ALL TRUMPS Token by setting your slippage to 5-10%.</p>
             </div>
         </div>
         <div style="text-align: center; margin-top: 2rem;">
-            <a href="#" class="cta-button">Trade Now on DEXScreener</a>
-            <p style="margin-top: 1rem;">Ensure to double-check the contract address: <strong>8193TX2uRKjtuKNUGrDTCd9XbpfJm6haHb3t8bTrpump</strong></p>
+            <a href="#" class="cta-button">Trade Now on GemPad</a>
+            <p style="margin-top: 1rem;">Ensure to double-check the contract address: <strong>BQ9pieP5PvwzcAs2pJamtqQdfvpyq8MJQPmv1Sww2R1</strong></p>
         </div>
     </section>
     
-    
-    <!-- FAQ Section -->
     <section id="faq" class="section">
         <h2>Frequently Asked Questions</h2>
         <div class="faq-container">
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleAnswer(this)">
-                    <span>What is Retired Token Coin? </span>
+                    <span>What is FATHER OF ALL TRUMPS Coin?</span>
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    Retired Trucker Coin is a next-generation meme coin designed to combine fun with real utility and a deflationary model.
+                    FATHER OF ALL TRUMPS Coin is a next-generation meme coin designed to combine fun with real utility and a deflationary model.
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleAnswer(this)">
-                    <span>How can I buy Retired Trucker? </span>
+                    <span>How can I buy FATHER OF ALL TRUMPS?</span>
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    You can purchase Retired Trucker  officially through dex screener  or supported exchanges. Make sure to use a compatible wallet.
+                    You can purchase FATHER OF ALL TRUMPS officially through dex screener or supported exchanges. Make sure to use a compatible wallet.
                 </div>
             </div>
 
             <div class="faq-item">
                 <div class="faq-question" onclick="toggleAnswer(this)">
-                    <span>Is Retired Trucker safe? </span>
+                    <span>Is FATHER OF ALL TRUMPS safe?</span>
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
                     Yes, our smart contract is audited, and we have implemented strict security measures, including liquidity lock.
                 </div>
             </div>
-                <div class="faq-item">
+            <div class="faq-item">
                 <div class="faq-question" onclick="toggleAnswer(this)">
-                    <span>What You Should Know About Jack Blues: </span>
+                    <span>What You Should Know About Jack Blues:</span>
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
                     <p>Built on Solana: Fast, affordable, and accessible worldwide.</p>
-                    <p>Total Supply: 1,000,000,000 tokens—grab yours before they’re gone!</p>
+                    <p>Total Supply: 1,000,000,000 tokens—grab yours before they're gone!</p>
                 </div>
             </div>
-                <div class="faq-item">
+            <div class="faq-item">
                 <div class="faq-question" onclick="toggleAnswer(this)">
-                    <span>What It Offers: As a holder </span>
+                    <span>What It Offers: As a holder</span>
                     <span class="faq-toggle">+</span>
                 </div>
                 <div class="faq-answer">
-                    <p>Important Note: Jack Blues isn’t an investment—it’s a way to connect with the story and own a piece of the buzz.</p>
-                    <p>you’ll get access to exclusive content and insights into the Bieber family’s private life. This token isn’t about financial value—it’s about being part of the excitement and mystery.</p>
+                    <p>Important Note: Jack Blues isn't an investment—it's a way to connect with the story and own a piece of the buzz.</p>
+                    <p>you'll get access to exclusive content and insights into the Bieber family's private life. This token isn't about financial value—it's about being part of the excitement and mystery.</p>
                 </div>
             </div>
         </div>
@@ -519,31 +529,18 @@ Rumored to be tied to their mysterious son, Jack Blues gives you access to behin
         <div class="footer-content">
             <h3>Join Our Community</h3>
             <div class="social-links">
-                <a href="https://x.com/babyjackbluesol" aria-label="Twitter">
+                <a href="https://x.com/FREDFOAT" aria-label="Twitter">
                     <i class="fab fa-twitter" style="color: #1DA1F2;">Twitter</i>
                 </a>
-                <a href="http://t.me/JackBluesSol" aria-label="Telegram">
+                <a href="https://t.me/fatherofalltrumps" aria-label="Telegram">
                     <i class="fab fa-telegram" style="color: #0088CC;">telegram</i>
                 </a>
             </div>
-            <p style="margin-top: 2rem;">© 2024 Retired Token Coin. All rights reserved.</p>
+            <p style="margin-top: 2rem;">© 2024 FATHER OF ALL TRUMPS Coin. All rights reserved.</p>
         </div>
     </footer>
 
     <script>
-        function toggleAnswer(element) {
-            const answer = element.nextElementSibling;
-            const toggle = element.querySelector('.faq-toggle');
-
-            if (answer.style.display === 'block') {
-                answer.style.display = 'none';
-                toggle.textContent = '+';
-            } else {
-                answer.style.display = 'block';
-                toggle.textContent = '-';
-            }
-        }
-
         function toggleAnswer(element) {
             const answer = element.nextElementSibling;
             const toggle = element.querySelector('.faq-toggle');
@@ -565,6 +562,42 @@ Rumored to be tied to their mysterious son, Jack Blues gives you access to behin
                 console.error('Failed to copy text: ', err);
             });
         }
+
+        // Tokenomics Chart
+        const ctx = document.getElementById('tokenomicsChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Presale', 'Liquidity', 'Unlocked'],
+                datasets: [{
+                    data: [80, 12.8, 7.2],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.8)',
+                        'rgba(54, 162, 235, 0.8)',
+                        'rgba(255, 206, 86, 0.8)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    title: {
+                        display: true,
+                        text: 'FATHER OF ALL TRUMPS Tokenomics'
+                    }
+                }
+            }
+        });
     </script>
 </body>
 </html>
+
